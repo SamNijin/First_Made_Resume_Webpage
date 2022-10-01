@@ -1,0 +1,63 @@
+    body {
+        background-image: url("../images/bg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: max-content;
+    }
+    
+    .container {
+        width: fit-content;
+    }
+    
+    .logo {
+        float: left;
+        margin-top: 5px;
+    }
+    
+    .logo .logopic {
+        float: left;
+        height: 150px;
+        width: 150px;
+        margin-left: -45px;
+        padding: 35px;
+    }
+    
+    .logoname {
+        float: left;
+        margin-top: 18px;
+        padding-left: 115px;
+        position: absolute;
+    }
+    
+    .logoname .logotext {
+        float: left;
+        font-size: 75px;
+        color: aquamarine;
+    }
+    
+    .head {
+        position: absolute;
+        margin: 30px;
+        margin-left: 475px;
+        padding-left: 100px;
+        margin-top: -10px;
+    }
+    
+    .headtext {
+        display: flex;
+        margin-left: 350px;
+    }
+    
+    .headlink {
+        padding-left: 10px;
+        text-decoration: none;
+        padding-top: 23px;
+    }
+    
+    .hl {
+        text-decoration: none;
+        color: aliceblue;
+        font-size: 15px;
+        transition: .8s ease;
+        margin-left: 35px;
+    }
