@@ -25,7 +25,7 @@ p {
 
 body {
     margin-top: 15px;
-    background-color:cornsilk;
+    background-color: cornsilk;
     margin: 0.1%;
     height: 100%;
 }
@@ -82,17 +82,20 @@ img.sign {
     float: right;
     height: 55px;
 }
+
 .myDiv {
-    background-color:bisque;
+    background-color: bisque;
     height: 150px;
 
 }
+
 .myDivLink {
     color: blueviolet;
 }
+
 .skill {
     float: left;
-    background-color:blanchedalmond;
+    background-color: blanchedalmond;
     width: 212px;
     margin-top: -75px;
     padding-top: 50px;
@@ -100,28 +103,47 @@ img.sign {
     height: 100%;
     border-radius: 10px;
 }
+
 .wrapper {
     margin-left: 195px;
     border-radius: 10px;
 }
+
 ul.conskill {
     list-style-type: disc;
     margin-left: 10px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
 .foot {
-    float: inline-end;
+    /* float: inline-end; */
     background-color: bisque;
     size: 100%;
     border-radius: 10px;
     /* height: 250px; */
 }
+
 p.bot {
     margin-left: 220px;
 }
+
 h3.skl {
     text-align: center;
     padding-bottom: 20px;
     color: red;
+}
+
+.btn-data {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 45px;
+}
+
+#gen-pdf {
+    padding: 10px;
+    font-size: 1.1rem;
+    color: white;
+    background-color: blue;
+    font-weight: 600;
 }
